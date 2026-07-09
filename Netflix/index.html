@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- < assets css style.css > -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Netflix Premium - By Chitranshu Yadav</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?faily=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap"
+     rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+          <!-- Every thing goes inside here -->
+        <header class="header" id="header">
+            <div class="header-left">
+                <a href="#" class="logo">
+                    <i class="fas fa-play-circle"></i>
+                    NETFLIX
+                </a>
+                <button class="mobile-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="nav-menu">
+                    <a href="#" class="active">Home</a>
+                    <a href="#">TV Shows</a>
+                    <a href="#">Movies</a>
+                    <a href="#">New & Popular</a>
+                    <a href="#">My List</a>
+                </div>
+            </div>
+            <div class="user-menu">
+                <div class="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="notifications-icon">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <div class="user-profile">
+                    <img src="assets/images/Chitranshu.png" alt="user profile" srcset="">
+                    <span>Chitranshu</span>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content Area -->
+         <div class="main-container">
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3> Menu </h3>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-fire"></i> New & Popular
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-bookmark"></i> My List
+                    </a>
+                </div>
+                <div class="sidebar-section">
+                    <h3> Categories </h3>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-play-circle"></i> Movies
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-tv"></i> TV Shows
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-music"></i> Music
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-gamepad"></i> Games
+                    </a>
+                </div>
+                <div class="sidebar-section">
+                    <h3> Genres </h3>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-theater-masks"></i> Action
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-laugh"></i> Comedy
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-heart"></i> Romance
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-ghost"></i> Horror
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-rocket"></i> Sci-Fi
+                    </a>
+                </div>
+                <div class="sidebar-section">
+                    <h3> My Favorites </h3>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-home"></i> Saved Titles
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-fire"></i> Recently Watched
+                    </a>
+                    <a href="#" class="sidebar-link active">
+                        <i class="fas fa-bookmark"></i> Top Rated
+                    </a>
+                </div>
+            </aside>
+            <!-- Main content container -->
+             <main class="main">
+                <!-- Hero Banner -->
+                 <div class="hero-banner-container">
+                 <div class="hero-bg"></div>
+                 <div class="hero-content">
+                    <h1 class="hero-title"> Developers in Love</h1>
+                    <p class="hero-description">Two disciplined yet visionary developers, decided to build
+                        a beautiful future together, with strong determination to face the challenges that life's situation throws at them
+                        and raise a bloodline of brilliant developers.
+                    </p>
+                    <div class="hero-actions">
+                        <button class="btn btn-play">
+                            <i class="fas fa-play"></i> Play
+                        </button>
+                        <button class="btn btn-info">
+                            <i class="fas fa-info-circle"></i> More Info
+                        </button>
+                    </div>
+                 </div>
+                 </div>
+
+                 <!-- Mobile Hero Banner -->
+                  <div class="mobile-hero-banner">
+                    <div class="mobile-hero-bg"></div>
+                    <div class="mobile-hero-content">
+                        <h1 class="mobile-hero-title">Queen's Gambit</h1>
+                        <p class="mobile-hero-description">When a young girl, learns how to play chess like crazy vanishes, a small 
+                            town uncovers a mystery involving secret experiments.
+                        </p>
+                        <div class="mobile-hero-actions">
+                            <button class="mobile-btn mobile-btn-play">
+                                <i class="fas fa-play"></i>Play
+                            </button>
+                            <button class="mobile-btn mobile-btn-info">
+                                <i class="fas fa-info-circle"></i>More Info
+                            </button>
+                        </div>
+                        <div class="mobile-hero-badge">
+                            <i class="fas fa-star"></i>8.7/10. New Season
+                        </div>
+                    </div>
+                  </div>
+
+
+
+                 <!-- Content Row -->
+                  <section class="content-row">
+                    <div class="row-header">
+                        <h2 class="row-title"> Popular on Netflix</h2>
+                        <a herf="#" class="see-all">See All</a>
+                    </div>
+                    <div class="content-grid">
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/Dark.png" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Dark</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.7
+                                    </div>
+                                    <div>2017-2020</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- More Content Cards -->
+                         <div class="content-card">
+                            <img src="assets/images/netflix-new/Inception.png" alt="" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Inception</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.8
+                                    </div>
+                                    <div>2010</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/money-hiest" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Money Hiest</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.2
+                                    </div>
+                                    <div>2017-21</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/mentalist" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">The Mentalist</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.2
+                                    </div>
+                                    <div>2008-15</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/Reacher" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Reacher</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.0
+                                    </div>
+                                    <div>2022-25</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/House-of-dragon" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">House of the dragon</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.3
+                                    </div>
+                                    <div>2022-26</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/GOT" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Game of Thrones</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>9.2
+                                    </div>
+                                    <div>2011-19</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </section>
+                  <section class="content-row">
+                    <div class="row-header">
+                        <h2 class="row-title"> Trending Now</h2>
+                        <a herf="#" class="see-all">See All</a>
+                    </div>
+                    <div class="content-grid">
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/Heart Eyes.jpg" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Heart Eyes</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>6
+                                    </div>
+                                    <div>2025</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- More Content Cards -->
+                         <div class="content-card">
+                            <img src="assets/images/netflix-new/the-vampire-diaries" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">The Vampire Diaries</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>7.7
+                                    </div>
+                                    <div>2009-17</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/The Dark Knight" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">The Dark Knight</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>9.1
+                                    </div>
+                                    <div>2008</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/Avengers Endgame" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Avengers Endgame</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.4
+                                    </div>
+                                    <div>2019</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/Batman Begins" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Batman Begins</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.2
+                                    </div>
+                                    <div>2005</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/Batman-Superman" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Batman v Superman: Dawn of Justice</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>6.4
+                                    </div>
+                                    <div>2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/The Batman" alt="Movie" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">The Batman</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>7.8
+                                    </div>
+                                    <div>2022</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </section>
+                  <section class="content-row">
+                    <div class="row-header">
+                        <h2 class="row-title"> New Releases</h2>
+                        <a herf="#" class="see-all">See All</a>
+                    </div>
+                    <div class="content-grid">
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/Obsession" alt="Movies" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Obsession</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.6
+                                    </div>
+                                    <div>2026</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- More Content Cards -->
+                         <div class="content-card">
+                            <img src="assets/images/netflix-new/Stranger Things" alt="Movies" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Stranger Things</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.6
+                                    </div>
+                                    <div>2016-25</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/The Odyssey" alt="Movies" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">The Odyssey</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>....
+                                    </div>
+                                    <div>2026</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/Spider-man" alt="Movies" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Spider-Man: Brand New Day</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>....
+                                    </div>
+                                    <div>2026</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/Interstellar" alt="Movies" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">Interstellar</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.7
+                                    </div>
+                                    <div>2014</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/F1" alt="Movies" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">F1</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>7.6
+                                    </div>
+                                    <div>2025</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <img src="assets/images/netflix-new/The Boys" alt="Movies" srcset="">
+                            <div class="card-overlay">
+                                <div class="card-title">The Boys</div>
+                                <div class="card-info">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>8.5
+                                    </div>
+                                    <div>2019-26</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </section>
+                  </div>
+             </main>
+         </div>
+<!-- Footer -->
+ <footer class="footer">
+    <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="footer-links">
+        <a href="#">Audio Description</a>
+        <a href="#">Help Center</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Media Center</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Jobs</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+        <a href="#">Legal Notices</a>
+        <a href="#">Cookie Preference</a>
+        <a href="#">Corporate Information</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div class="service-code">Service Code: NF-2025</div>
+    <div class="copyright">2025 Chitranshu Yadav, Inc. This is a demonstration project only.</div>
+ </footer>
+
+    </div>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
