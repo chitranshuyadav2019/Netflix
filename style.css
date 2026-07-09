@@ -334,7 +334,7 @@ h1, h2, h3, h4 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)0%, transparent 60%), url('../images/developer-couple.jpg') center/cover no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)0%, transparent 60%), url('developer-couple.jpg') center/cover no-repeat;
     z-index: 1;
 }
 
@@ -481,7 +481,7 @@ h1, h2, h3, h4 {
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, rgba(0,0,0,0.4)0%,
-    rgba(0,0,0,0.7)70%, rgba(0,0,0,0.9)100%), url('../images/gambit.png') center/cover no-repeat;
+    rgba(0,0,0,0.7)70%, rgba(0,0,0,0.9)100%), url('gambit.png') center/cover no-repeat;
     z-index: 1;
 }
 
