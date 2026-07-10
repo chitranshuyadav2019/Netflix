@@ -148,7 +148,7 @@ h1, h2, h3, h4 {
     gap: 25px;
 }
 
-.notifications-icon{
+.search-icon, .notifications-icon{
     font-size: 1.3rem;
     color: var(--text-primary);
     cursor: pointer;
@@ -156,7 +156,7 @@ h1, h2, h3, h4 {
     position: relative;
 }
 
-.notifications-icon:hover{
+.search-icon:hover, .notifications-icon:hover{
     color: var(--netflix-red);
     transform: scale(1.1);
 }
