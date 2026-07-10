@@ -310,6 +310,38 @@ h1, h2, h3, h4 {
 }
 
 /* Responsive Hero Banner */
+
+/*Search Bar*/
+.hero-search-bar{
+    display: flex;
+    position: absolute;
+    top: 8px;
+    z-index: 40;
+    padding: 20px;
+    height: 40px;
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.search-bar{
+    height: 40px;
+    width: 85%;
+    border-radius: 20px;
+    border: 1px transparent black;
+    box-shadow: #b2b8b4;
+    background: rgba(255, 255, 255, 0.607);
+    padding: 20px;
+}
+.search-btn{
+    position: relative;
+    left: -65px;
+    height: 40px;
+    width: 40px;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+}
+
 .hero-banner{
     position: relative;
 }
@@ -334,7 +366,7 @@ h1, h2, h3, h4 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)0%, transparent 60%), url('developer-couple.jpg') center/cover no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)0%, transparent 60%), url('../images/developer-couple.jpg') center/cover no-repeat;
     z-index: 1;
 }
 
@@ -481,7 +513,7 @@ h1, h2, h3, h4 {
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, rgba(0,0,0,0.4)0%,
-    rgba(0,0,0,0.7)70%, rgba(0,0,0,0.9)100%), url('gambit.png') center/cover no-repeat;
+    rgba(0,0,0,0.7)70%, rgba(0,0,0,0.9)100%), url('../images/gambit.png') center/cover no-repeat;
     z-index: 1;
 }
 
@@ -496,6 +528,36 @@ h1, h2, h3, h4 {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20%;
+}
+/* Search Bar*/
+.mobile-hero-search-bar{
+    display: flex;
+    position: absolute;
+    top: 8px;
+    z-index: 40;
+    padding: 20px;
+    height: 40px;
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.mobile-search-bar{
+    height: 40px;
+    width: 85%;
+    border-radius: 20px;
+    border: 1px transparent black;
+    box-shadow: #b2b8b4;
+    background: rgba(255, 255, 255, 0.607);
+    padding: 20px;
+}
+.mobile-search-btn{
+    position: relative;
+    left: -65px;
+    height: 40px;
+    width: 40px;
+    background: rgba(255, 255, 255, 0);
+    border: none;
 }
 
 .mobile-hero-title{
